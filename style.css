@@ -5,7 +5,6 @@ html {
 
 body {
 	font-size: 16px;
-	line-height: 1.5;
 }
 
 h1 {
@@ -16,18 +15,26 @@ h2 {
 	display: block;
 }
 
-.contact li, .writings li, unfinished-writings li {
+.writings li {
 	list-style: none;
+	margin-left: 0;
+	padding: 0pt;
+}
+
+
+.contact a {
+	text-decoration: none;
 }
 
 .intro {
 	text-align: center;
 	margin-bottom: 100px;
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 .writings {
 	text-align: left;
+	line-height: 1.5;
 }
 
 .unfinished-writings {
